@@ -1,0 +1,33 @@
+{
+  "name": "tree-view",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 9001",
+    "build-storybook": "build-storybook",
+    "doc": "father doc dev"
+  },
+  "author": "alfred",
+  "license": "MIT",
+  "dependencies": {
+    "draft-js": "^0.11.7"
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^6.1.18",
+    "@storybook/addon-controls": "^6.1.18",
+    "@storybook/addon-docs": "^6.1.18",
+    "@storybook/react": "^6.1.17",
+    "@svgr/webpack": "^5.5.0",
+    "@types/react-pdf": "^5.0.1",
+    "css-loader": "^5.0.2",
+    "father": "^2.30.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "sass": "^1.32.7",
+    "sass-loader": "^10.1.0",
+    "style-loader": "^2.0.0",
+    "typescript": "^4.1.5"
+  }
+}

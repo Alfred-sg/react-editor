@@ -1,0 +1,32 @@
+.react-editor-container {
+  position: relative;
+  background-color: transparent;
+  min-height: 1024px;
+  padding: 20px 60px 90px 60px;
+  line-height: 1.5;
+  font-size: 14px;
+  color: #333;
+  letter-spacing: 0.008em;
+  outline-style: none;
+  white-space: pre-wrap;
+
+  h1, h2, h3, h4 {
+    margin-top: 0;
+    margin-bottom: 0;
+    word-spacing: 1px;
+    color: #333;
+    font-weight: bold;
+    padding: 0;
+  }
+
+  h3 {
+    font-size: 20px;
+    line-height: 28px;
+    margin: 16px 0 5px 0;
+  }
+
+  p {
+    margin: 0;
+    min-height: 24px;
+  }
+}
